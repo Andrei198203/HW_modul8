@@ -1,4 +1,5 @@
 from datetime import datetime, timedelta
+from datetime import date
 
 
 # Функція виведення
@@ -39,12 +40,12 @@ def get_birthdays_per_week(users):
             print(f"{day}: {', '.join(names)}")
 
 
-# Як використати
+# # Як використати
 # users = [
 #     {"name": "Sergii", "birthday": datetime(2023, 8, 28)},
 #     {"name": "Olga", "birthday": datetime(2023, 8, 29)},
 #     {"name": "Oleg", "birthday": datetime(2023, 8, 30)},
 #     {"name": "Yana", "birthday": datetime(2023, 8, 31)},
 # ]
-
-get_birthdays_per_week(users)
+#
+# get_birthdays_per_week(users)
