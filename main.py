@@ -40,11 +40,11 @@ def get_birthdays_per_week(users):
 
 
 # Як використати
-users = [
-    {"name": "Sergii", "birthday": datetime(2023, 8, 28)},
-    {"name": "Olga", "birthday": datetime(2023, 8, 29)},
-    {"name": "Oleg", "birthday": datetime(2023, 8, 30)},
-    {"name": "Yana", "birthday": datetime(2023, 8, 31)},
-]
+# users = [
+#     {"name": "Sergii", "birthday": datetime(2023, 8, 28)},
+#     {"name": "Olga", "birthday": datetime(2023, 8, 29)},
+#     {"name": "Oleg", "birthday": datetime(2023, 8, 30)},
+#     {"name": "Yana", "birthday": datetime(2023, 8, 31)},
+# ]
 
 get_birthdays_per_week(users)
